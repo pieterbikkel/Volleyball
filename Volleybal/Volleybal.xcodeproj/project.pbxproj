@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B25A24623E3080B00E65464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A24523E3080B00E65464 /* AppDelegate.swift */; };
+		2B25A24823E3080B00E65464 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A24723E3080B00E65464 /* SceneDelegate.swift */; };
+		2B25A24B23E3080B00E65464 /* Volleybal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A24923E3080B00E65464 /* Volleybal.xcdatamodeld */; };
+		2B25A24D23E3080B00E65464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A24C23E3080B00E65464 /* ContentView.swift */; };
+		2B25A24F23E3080C00E65464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B25A24E23E3080C00E65464 /* Assets.xcassets */; };
+		2B25A25223E3080C00E65464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B25A25123E3080C00E65464 /* Preview Assets.xcassets */; };
+		2B25A25523E3080C00E65464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B25A25323E3080C00E65464 /* LaunchScreen.storyboard */; };
+		2B25A26023E3080C00E65464 /* VolleybalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A25F23E3080C00E65464 /* VolleybalTests.swift */; };
+		2B25A26B23E3080C00E65464 /* VolleybalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A26A23E3080C00E65464 /* VolleybalUITests.swift */; };
+		2B25A27D23E3132C00E65464 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A27C23E3132C00E65464 /* Constants.swift */; };
+		2B25A27F23E3189800E65464 /* StandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A27E23E3189800E65464 /* StandView.swift */; };
+		2B25A28123E318A500E65464 /* UitslagenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28023E318A500E65464 /* UitslagenView.swift */; };
+		2B25A28523E318C300E65464 /* InstellingenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28423E318C300E65464 /* InstellingenView.swift */; };
+		2B25A28723E318F600E65464 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28623E318F600E65464 /* AgendaView.swift */; };
+		2B25A28923E3194C00E65464 /* NieuwsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28823E3194C00E65464 /* NieuwsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B25A25C23E3080C00E65464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B25A23A23E3080B00E65464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B25A24123E3080B00E65464;
+			remoteInfo = Volleybal;
+		};
+		2B25A26723E3080C00E65464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B25A23A23E3080B00E65464 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B25A24123E3080B00E65464;
+			remoteInfo = Volleybal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B25A24223E3080B00E65464 /* Volleybal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volleybal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B25A24523E3080B00E65464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B25A24723E3080B00E65464 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B25A24A23E3080B00E65464 /* Volleybal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Volleybal.xcdatamodel; sourceTree = "<group>"; };
+		2B25A24C23E3080B00E65464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B25A24E23E3080C00E65464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B25A25123E3080C00E65464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B25A25423E3080C00E65464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B25A25623E3080C00E65464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B25A25B23E3080C00E65464 /* VolleybalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleybalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B25A25F23E3080C00E65464 /* VolleybalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleybalTests.swift; sourceTree = "<group>"; };
+		2B25A26123E3080C00E65464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B25A26623E3080C00E65464 /* VolleybalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleybalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B25A26A23E3080C00E65464 /* VolleybalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleybalUITests.swift; sourceTree = "<group>"; };
+		2B25A26C23E3080C00E65464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B25A27C23E3132C00E65464 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B25A27E23E3189800E65464 /* StandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandView.swift; sourceTree = "<group>"; };
+		2B25A28023E318A500E65464 /* UitslagenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UitslagenView.swift; sourceTree = "<group>"; };
+		2B25A28423E318C300E65464 /* InstellingenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstellingenView.swift; sourceTree = "<group>"; };
+		2B25A28623E318F600E65464 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		2B25A28823E3194C00E65464 /* NieuwsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NieuwsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B25A23F23E3080B00E65464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B25A25823E3080C00E65464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B25A26323E3080C00E65464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B25A23923E3080B00E65464 = {
+			isa = PBXGroup;
+			children = (
+				2B25A24423E3080B00E65464 /* Volleybal */,
+				2B25A25E23E3080C00E65464 /* VolleybalTests */,
+				2B25A26923E3080C00E65464 /* VolleybalUITests */,
+				2B25A24323E3080B00E65464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B25A24323E3080B00E65464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B25A24223E3080B00E65464 /* Volleybal.app */,
+				2B25A25B23E3080C00E65464 /* VolleybalTests.xctest */,
+				2B25A26623E3080C00E65464 /* VolleybalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B25A24423E3080B00E65464 /* Volleybal */ = {
+			isa = PBXGroup;
+			children = (
+				2B25A24C23E3080B00E65464 /* ContentView.swift */,
+				2B25A28623E318F600E65464 /* AgendaView.swift */,
+				2B25A27E23E3189800E65464 /* StandView.swift */,
+				2B25A28023E318A500E65464 /* UitslagenView.swift */,
+				2B25A28823E3194C00E65464 /* NieuwsView.swift */,
+				2B25A28423E318C300E65464 /* InstellingenView.swift */,
+				2B25A27C23E3132C00E65464 /* Constants.swift */,
+				2B25A24523E3080B00E65464 /* AppDelegate.swift */,
+				2B25A24723E3080B00E65464 /* SceneDelegate.swift */,
+				2B25A24E23E3080C00E65464 /* Assets.xcassets */,
+				2B25A25323E3080C00E65464 /* LaunchScreen.storyboard */,
+				2B25A25623E3080C00E65464 /* Info.plist */,
+				2B25A24923E3080B00E65464 /* Volleybal.xcdatamodeld */,
+				2B25A25023E3080C00E65464 /* Preview Content */,
+			);
+			path = Volleybal;
+			sourceTree = "<group>";
+		};
+		2B25A25023E3080C00E65464 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B25A25123E3080C00E65464 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B25A25E23E3080C00E65464 /* VolleybalTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B25A25F23E3080C00E65464 /* VolleybalTests.swift */,
+				2B25A26123E3080C00E65464 /* Info.plist */,
+			);
+			path = VolleybalTests;
+			sourceTree = "<group>";
+		};
+		2B25A26923E3080C00E65464 /* VolleybalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B25A26A23E3080C00E65464 /* VolleybalUITests.swift */,
+				2B25A26C23E3080C00E65464 /* Info.plist */,
+			);
+			path = VolleybalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B25A24123E3080B00E65464 /* Volleybal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B25A26F23E3080C00E65464 /* Build configuration list for PBXNativeTarget "Volleybal" */;
+			buildPhases = (
+				2B25A23E23E3080B00E65464 /* Sources */,
+				2B25A23F23E3080B00E65464 /* Frameworks */,
+				2B25A24023E3080B00E65464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Volleybal;
+			productName = Volleybal;
+			productReference = 2B25A24223E3080B00E65464 /* Volleybal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B25A25A23E3080C00E65464 /* VolleybalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B25A27223E3080C00E65464 /* Build configuration list for PBXNativeTarget "VolleybalTests" */;
+			buildPhases = (
+				2B25A25723E3080C00E65464 /* Sources */,
+				2B25A25823E3080C00E65464 /* Frameworks */,
+				2B25A25923E3080C00E65464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B25A25D23E3080C00E65464 /* PBXTargetDependency */,
+			);
+			name = VolleybalTests;
+			productName = VolleybalTests;
+			productReference = 2B25A25B23E3080C00E65464 /* VolleybalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B25A26523E3080C00E65464 /* VolleybalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B25A27523E3080C00E65464 /* Build configuration list for PBXNativeTarget "VolleybalUITests" */;
+			buildPhases = (
+				2B25A26223E3080C00E65464 /* Sources */,
+				2B25A26323E3080C00E65464 /* Frameworks */,
+				2B25A26423E3080C00E65464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B25A26823E3080C00E65464 /* PBXTargetDependency */,
+			);
+			name = VolleybalUITests;
+			productName = VolleybalUITests;
+			productReference = 2B25A26623E3080C00E65464 /* VolleybalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B25A23A23E3080B00E65464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pieter Bikkel";
+				TargetAttributes = {
+					2B25A24123E3080B00E65464 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2B25A25A23E3080C00E65464 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2B25A24123E3080B00E65464;
+					};
+					2B25A26523E3080C00E65464 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2B25A24123E3080B00E65464;
+					};
+				};
+			};
+			buildConfigurationList = 2B25A23D23E3080B00E65464 /* Build configuration list for PBXProject "Volleybal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B25A23923E3080B00E65464;
+			productRefGroup = 2B25A24323E3080B00E65464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B25A24123E3080B00E65464 /* Volleybal */,
+				2B25A25A23E3080C00E65464 /* VolleybalTests */,
+				2B25A26523E3080C00E65464 /* VolleybalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B25A24023E3080B00E65464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B25A25523E3080C00E65464 /* LaunchScreen.storyboard in Resources */,
+				2B25A25223E3080C00E65464 /* Preview Assets.xcassets in Resources */,
+				2B25A24F23E3080C00E65464 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B25A25923E3080C00E65464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B25A26423E3080C00E65464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B25A23E23E3080B00E65464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B25A24623E3080B00E65464 /* AppDelegate.swift in Sources */,
+				2B25A28523E318C300E65464 /* InstellingenView.swift in Sources */,
+				2B25A24823E3080B00E65464 /* SceneDelegate.swift in Sources */,
+				2B25A27F23E3189800E65464 /* StandView.swift in Sources */,
+				2B25A24D23E3080B00E65464 /* ContentView.swift in Sources */,
+				2B25A28723E318F600E65464 /* AgendaView.swift in Sources */,
+				2B25A28123E318A500E65464 /* UitslagenView.swift in Sources */,
+				2B25A24B23E3080B00E65464 /* Volleybal.xcdatamodeld in Sources */,
+				2B25A27D23E3132C00E65464 /* Constants.swift in Sources */,
+				2B25A28923E3194C00E65464 /* NieuwsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B25A25723E3080C00E65464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B25A26023E3080C00E65464 /* VolleybalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B25A26223E3080C00E65464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B25A26B23E3080C00E65464 /* VolleybalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B25A25D23E3080C00E65464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B25A24123E3080B00E65464 /* Volleybal */;
+			targetProxy = 2B25A25C23E3080C00E65464 /* PBXContainerItemProxy */;
+		};
+		2B25A26823E3080C00E65464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B25A24123E3080B00E65464 /* Volleybal */;
+			targetProxy = 2B25A26723E3080C00E65464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B25A25323E3080C00E65464 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B25A25423E3080C00E65464 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B25A26D23E3080C00E65464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B25A26E23E3080C00E65464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B25A27023E3080C00E65464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Volleybal/Preview Content\"";
+				DEVELOPMENT_TEAM = KB7MXFML57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Volleybal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.Volleybal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B25A27123E3080C00E65464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Volleybal/Preview Content\"";
+				DEVELOPMENT_TEAM = KB7MXFML57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Volleybal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.Volleybal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B25A27323E3080C00E65464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7MXFML57;
+				INFOPLIST_FILE = VolleybalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.VolleybalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Volleybal.app/Volleybal";
+			};
+			name = Debug;
+		};
+		2B25A27423E3080C00E65464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7MXFML57;
+				INFOPLIST_FILE = VolleybalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.VolleybalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Volleybal.app/Volleybal";
+			};
+			name = Release;
+		};
+		2B25A27623E3080C00E65464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7MXFML57;
+				INFOPLIST_FILE = VolleybalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.VolleybalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Volleybal;
+			};
+			name = Debug;
+		};
+		2B25A27723E3080C00E65464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB7MXFML57;
+				INFOPLIST_FILE = VolleybalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.VolleybalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Volleybal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B25A23D23E3080B00E65464 /* Build configuration list for PBXProject "Volleybal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B25A26D23E3080C00E65464 /* Debug */,
+				2B25A26E23E3080C00E65464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B25A26F23E3080C00E65464 /* Build configuration list for PBXNativeTarget "Volleybal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B25A27023E3080C00E65464 /* Debug */,
+				2B25A27123E3080C00E65464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B25A27223E3080C00E65464 /* Build configuration list for PBXNativeTarget "VolleybalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B25A27323E3080C00E65464 /* Debug */,
+				2B25A27423E3080C00E65464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B25A27523E3080C00E65464 /* Build configuration list for PBXNativeTarget "VolleybalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B25A27623E3080C00E65464 /* Debug */,
+				2B25A27723E3080C00E65464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B25A24923E3080B00E65464 /* Volleybal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B25A24A23E3080B00E65464 /* Volleybal.xcdatamodel */,
+			);
+			currentVersion = 2B25A24A23E3080B00E65464 /* Volleybal.xcdatamodel */;
+			path = Volleybal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B25A23A23E3080B00E65464 /* Project object */;
+}
