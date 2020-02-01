@@ -10,8 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 0
- 
+    
     var body: some View {
+        
+        ZStack(alignment: .top) {
+        VStack() {
+                Rectangle()
+                    .foregroundColor(Color("backgroundColor"))
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(height: 0)
+        
         TabView {
             AgendaView().tabItem({
                 Image(systemName: Constants.TabBarImageName.tabBar0 )
@@ -41,6 +49,9 @@ struct ContentView: View {
             
             
         }.accentColor(Color(#colorLiteral(red: 0.8745098039, green: 0.3411764706, blue: 0.06666666667, alpha: 1)))
+            
+            }
+        }
     }
 }
 

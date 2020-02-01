@@ -19,10 +19,10 @@ struct AgendaView: View {
         
         var body: some View {
             NavigationView {
-                Rectangle()
-                .foregroundColor(Color("backgroundColor1"))
-                .edgesIgnoringSafeArea(.top)
-                .frame(height: 2000)
+                ZStack {
+                    Color("backgroundColor")
+                    .edgesIgnoringSafeArea(.all)
+                }
                 .navigationBarTitle(Text("Agenda"))
             }
         }
