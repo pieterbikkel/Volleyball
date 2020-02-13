@@ -22,6 +22,7 @@
 		2B25A28523E318C300E65464 /* InstellingenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28423E318C300E65464 /* InstellingenView.swift */; };
 		2B25A28723E318F600E65464 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28623E318F600E65464 /* AgendaView.swift */; };
 		2B25A28923E3194C00E65464 /* NieuwsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B25A28823E3194C00E65464 /* NieuwsView.swift */; };
+		2B66927023E9601C005FB3FB /* XMLParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66926F23E9601C005FB3FB /* XMLParserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2B25A28423E318C300E65464 /* InstellingenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstellingenView.swift; sourceTree = "<group>"; };
 		2B25A28623E318F600E65464 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
 		2B25A28823E3194C00E65464 /* NieuwsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NieuwsView.swift; sourceTree = "<group>"; };
+		2B66926F23E9601C005FB3FB /* XMLParserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2B25A24C23E3080B00E65464 /* ContentView.swift */,
+				2B66926F23E9601C005FB3FB /* XMLParserManager.swift */,
 				2B25A28623E318F600E65464 /* AgendaView.swift */,
 				2B25A27E23E3189800E65464 /* StandView.swift */,
 				2B25A28023E318A500E65464 /* UitslagenView.swift */,
@@ -298,6 +301,7 @@
 				2B25A24B23E3080B00E65464 /* Volleybal.xcdatamodeld in Sources */,
 				2B25A27D23E3132C00E65464 /* Constants.swift in Sources */,
 				2B25A28923E3194C00E65464 /* NieuwsView.swift in Sources */,
+				2B66927023E9601C005FB3FB /* XMLParserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.Volleybal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -494,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PieterBikkel.Volleybal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

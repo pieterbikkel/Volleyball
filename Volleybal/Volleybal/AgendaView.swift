@@ -24,7 +24,7 @@ struct AgendaView: View {
                     .edgesIgnoringSafeArea(.all)
                 }
                 .navigationBarTitle(Text("Agenda"))
-            }
+            }.foregroundColor(Color("backgroundColor"))
         }
     }
 
